@@ -1,0 +1,10 @@
+rank:               Rank
+fantasyTeamName:    Name
+whiteLabel:         Platform
+payout:             Payout
+score:              Score
+roundRank:          roundRank
+roundScore:         roundScore
+totalScoreRound:    totalScoreRound
+gameweek:           Gw
+teamId:             teamId

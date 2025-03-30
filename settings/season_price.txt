@@ -1,0 +1,12 @@
+firstName:      firstName
+lastName:       lastName
+customName:     customName
+teamName:       Team
+abbr:           Abbr
+position:       Pos
+lineup:         lineup
+gwPrice:        Cost
+bonus:          BN
+form:           form
+realPlayerId:   id
+currentGW:      gw

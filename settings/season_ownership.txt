@@ -1,0 +1,16 @@
+firstName:          firstName
+lastName:           lastName
+teamName:           Team
+abbr:               Abbr
+position:           Pos
+totalPoints:        Total
+minutesPlayed:      Min
+gwPoints:           Points
+seasonPrice:        Season
+gwPrice:            Cost
+selectedRatio:      Select
+captainedRatio:     Cap
+fieldTeam:          St
+abbrRival:          Rival
+gameweek:           Gw
+realPlayerId:       id
