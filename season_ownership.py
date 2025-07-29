@@ -155,7 +155,7 @@ def realPlayers(players, gameweek, skipNonPlaying, numTourn, enableNumTourn):
         write_csv(''.join(settings.RESULT_FILE_OWN), data_gameweek, ORDER)
 
 
-def main(gameweek=1, numTourn=439598, skipNonPlaying=False, enableNumTourn=True):
+def main(gameweek=1, numTourn=1000000, skipNonPlaying=False, enableNumTourn=True):
     actual_players = json_read(settings.PLAYERS_FILE)
     realPlayers(actual_players, gameweek, skipNonPlaying, numTourn, enableNumTourn)
 

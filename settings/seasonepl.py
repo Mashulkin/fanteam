@@ -1,7 +1,7 @@
 
 __author__ = 'Vadim Arsenev'
 __version__ = '1.0.0'
-__data__ = '04.07.2022'
+__data__ = '29.07.2025'
 
 
 REQUESTS_ARGS = {'Authorization': 'Bearer fanteam undefined'}
@@ -12,15 +12,15 @@ PLAYERS_FILE = './data/players.json'
 
 # for season price only
 COLUMNS = './settings/season_price.txt'
-RESULT_FILE = ['./data/ftSeasonEPL22-23.csv']
+RESULT_FILE = ['./data/ftSeasonEPL.csv']
 
 # for season ownership only
 COLUMNS_OWN = './settings/season_ownership.txt'
-RESULT_FILE_OWN = ['./data/ftSeasonOwnershipEPL22-23.csv']
+RESULT_FILE_OWN = ['./data/ftSeasonOwnershipEPL.csv']
 
 # for season leaderboard tournaments only
 COLUMNS_BOARD = './settings/season_leaderboard.txt'
 RESULT_FILE_BOARD = ['./data/ftSeasonLeaderboardEPL.csv']
 
-SEASON_ID = '1224'
-NUMBER_TOURN = '634046'
+SEASON_ID = '1900'
+NUMBER_TOURN = '1000000'

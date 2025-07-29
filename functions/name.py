@@ -5,8 +5,8 @@ Real player name formatting on Fanteam
 
 
 __author__ = 'Vadim Arsenev'
-__version__ = '1.0.0'
-__data__ = '02.08.2021'
+__version__ = '1.0.1'
+__data__ = '29.07.2025'
 
 
 def formatPlayerName(player):
@@ -30,5 +30,8 @@ def formatPlayerName(player):
         customName = ''
     except AttributeError:
         customName = ''
+
+    if lastName == '':
+        lastName = customName
 
     return firstName, lastName, customName
